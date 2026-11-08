@@ -31,7 +31,7 @@ serde_json = "1"
 chrono = { version = "0.4", default-features = false, features = ["std", "clock"] }
 ureq = { version = "3", features = ["json"] }
 # Read encrypted/deflated Atlas packages without also building the Zopfli encoder.
-zip = { version = "8.6", default-features = false, features = ["deflate-flate2-zlib-rs", "aes-crypto"] }
+zip = { version = "9.0", default-features = false, features = ["deflate-flate2-zlib-rs", "aes-crypto"] }
 image = { version = "0.25", default-features = false, features = ["png"] }
 roxmltree = "0.21"
 ring = "0.17"
